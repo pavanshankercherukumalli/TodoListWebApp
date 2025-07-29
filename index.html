@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>TO DO</h1>
+
+    <!-- Date & Time -->
+    <div class="datetime">
+      <span id="current-date"></span> | <span id="current-time"></span>
+    </div>
+
+    <!-- Dark Mode Toggle -->
+    <button id="themeToggle">🌙 Toggle Dark Mode</button>
+
+    <h2>TASK LIST</h2>
+
+    <!-- Task Input Section -->
+    <div class="task-entry">
+      <input type="time" id="startTime">
+      <input type="time" id="endTime">
+      <input type="text" id="taskInput" placeholder="Task (e.g., Study)">
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <!-- Task Display -->
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
